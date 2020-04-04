@@ -72,7 +72,7 @@ namespace COIL100_CustomVision
 			}
 
 			Console.WriteLine("\tUploading images");
-			var images = LoadImagesFromDisk("Images");
+			var images = LoadImagesFromDisk("images");
 
 			foreach (var image in images)
 			{
